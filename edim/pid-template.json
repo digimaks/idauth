@@ -1,0 +1,16 @@
+{
+  "credentials": [
+    {
+      "id": "pid_mdoc",
+      "doctype_or_vct": "eu.europa.ec.eudi.pid.1",
+      "format": "mso_mdoc",
+      "name": "Person Identification Data (PID)",
+      "algorithms": ["ES256", "ES384", "ES512", "EdDSA"],
+      "claims": [
+        { "key": "given_name", "intent_to_retain": true },
+        { "key": "family_name", "intent_to_retain": true },
+        { "key": "personal_administrative_number", "intent_to_retain": true }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+.env
+publish
+**/*.exe
+.config/*.yaml
+cmd/server/__debug_bin*
+/server
+.config/
+client.key
+docs/client.pem
+
+.idea
+.cert
+lx-idauth/
+/graphify-out
