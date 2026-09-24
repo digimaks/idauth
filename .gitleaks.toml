@@ -1,0 +1,8 @@
+title = "gitleaks config"
+
+[allowlist]
+description = "Test-only fixtures, not production secrets"
+paths = [
+  '''routes/token_test\.go''',
+  '''testdata/attestation_trust_key\.pem''',
+]
